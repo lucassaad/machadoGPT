@@ -10,10 +10,8 @@ class DataPreparer:
 
     def prepare(self, file: str):
 
-        file_path = os.path.join(INPUT_DIR, file)
+        file_path = os.path.join(INPUT_DIR, f"{file}.txt")
 
-
-        file = file.split('.')[0]
 
         output_dir = os.path.join(os.path.dirname(__file__), OUTPUT_DIR)
         if not os.path.exists(output_dir):
@@ -45,9 +43,9 @@ class DataPreparer:
         self._export_splits(train_ids, val_ids, output_path)
 
         # save the meta information as well, to help us encode/decode later
-        self._save_metadata(vocab_size, itos, stoi, output_path)
+        self._save_metadata(chars, vocab_size, itos, stoi, output_path)
 
-        return chars, vocab_size, stoi, itos
+        
 
 
     def _get_vocab(self, file: str):
@@ -89,8 +87,9 @@ class DataPreparer:
         val_ids.tofile(os.path.join(output_path, 'val.bin'))
 
 
-    def _save_metadata(self, vocab_size: int, itos: dict, stoi: dict, output_path):
+    def _save_metadata(self, chars: list, vocab_size: int, itos: dict, stoi: dict, output_path):
         meta = {
+            'chars': chars,
             'vocab_size': vocab_size,
             'itos': itos,
             'stoi': stoi,
