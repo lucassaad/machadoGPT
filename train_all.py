@@ -9,7 +9,7 @@ def main():
         print(f"\n=== Treinando: {tipo_literario} ===\n")
 
         result = subprocess.run(
-            [sys.executable, "train.py", "resume", tipo_literario]
+            [sys.executable, "train.py", "scratch", tipo_literario]
         )
 
         if result.returncode != 0:

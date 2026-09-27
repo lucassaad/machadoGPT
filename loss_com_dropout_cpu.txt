@@ -1,0 +1,351 @@
+-neurais/machadoGPT$ python 
+train_all.py 
+
+=== Treinando: texto ===
+
+Initializing a new model from scratch
+1.627275 M parameters
+step 0: train loss 4.9562, val loss 4.9563
+checkpoint salvo em checkpoints/texto
+step 500: train loss 2.3999, val loss 2.3983
+checkpoint salvo em checkpoints/texto
+step 1000: train loss 2.2299, val loss 2.2344
+checkpoint salvo em checkpoints/texto
+step 1500: train loss 2.1014, val loss 2.0926
+checkpoint salvo em checkpoints/texto
+step 2000: train loss 1.9797, val loss 2.0010
+checkpoint salvo em checkpoints/texto
+step 2500: train loss 1.9417, val loss 1.9323
+checkpoint salvo em checkpoints/texto
+step 3000: train loss 1.8705, val loss 1.8476
+checkpoint salvo em checkpoints/texto
+step 3500: train loss 1.8154, val loss 1.7960
+checkpoint salvo em checkpoints/texto
+step 4000: train loss 1.8219, val loss 1.7673
+checkpoint salvo em checkpoints/texto
+step 4500: train loss 1.7366, val loss 1.7404
+checkpoint salvo em checkpoints/texto
+step 5000: train loss 1.7223, val loss 1.7120
+checkpoint salvo em checkpoints/texto
+step 5500: train loss 1.7020, val loss 1.6839
+checkpoint salvo em checkpoints/texto
+step 6000: train loss 1.7013, val loss 1.6871
+step 6500: train loss 1.6527, val loss 1.6685
+checkpoint salvo em checkpoints/texto
+step 7000: train loss 1.6554, val loss 1.6338
+checkpoint salvo em checkpoints/texto
+step 7500: train loss 1.6387, val loss 1.6175
+checkpoint salvo em checkpoints/texto
+step 8000: train loss 1.6265, val loss 1.5865
+checkpoint salvo em checkpoints/texto
+step 8500: train loss 1.5873, val loss 1.6158
+step 9000: train loss 1.5953, val loss 1.5812
+checkpoint salvo em checkpoints/texto
+step 9500: train loss 1.5724, val loss 1.5935
+step 10000: train loss 1.5592, val loss 1.5737
+checkpoint salvo em checkpoints/texto
+step 10500: train loss 1.5467, val loss 1.5495
+checkpoint salvo em checkpoints/texto
+step 11000: train loss 1.5743, val loss 1.5727
+step 11500: train loss 1.5352, val loss 1.5470
+checkpoint salvo em checkpoints/texto
+step 12000: train loss 1.5228, val loss 1.5269
+checkpoint salvo em checkpoints/texto
+step 12500: train loss 1.5285, val loss 1.5710
+step 13000: train loss 1.5243, val loss 1.5255
+checkpoint salvo em checkpoints/texto
+step 13500: train loss 1.5571, val loss 1.5169
+checkpoint salvo em checkpoints/texto
+step 14000: train loss 1.5210, val loss 1.5420
+step 14500: train loss 1.5053, val loss 1.4994
+checkpoint salvo em checkpoints/texto
+step 15000: train loss 1.4931, val loss 1.4748
+checkpoint salvo em checkpoints/texto
+step 15500: train loss 1.5294, val loss 1.4859
+step 16000: train loss 1.5154, val loss 1.5387
+step 16500: train loss 1.4900, val loss 1.4872
+step 17000: train loss 1.4856, val loss 1.4862
+step 17500: train loss 1.4976, val loss 1.4818
+step 18000: train loss 1.4782, val loss 1.4881
+step 18500: train loss 1.4659, val loss 1.4612
+checkpoint salvo em checkpoints/texto
+step 19000: train loss 1.4886, val loss 1.4739
+step 19500: train loss 1.4811, val loss 1.4884
+step 20000: train loss 1.4596, val loss 1.4800
+step 20500: train loss 1.4795, val loss 1.4670
+step 21000: train loss 1.4494, val loss 1.4528
+checkpoint salvo em checkpoints/texto
+step 21500: train loss 1.4744, val loss 1.4630
+step 22000: train loss 1.4511, val loss 1.4897
+step 22500: train loss 1.4387, val loss 1.4861
+step 23000: train loss 1.4695, val loss 1.4670
+step 23500: train loss 1.4425, val loss 1.4436
+checkpoint salvo em checkpoints/texto
+step 24000: train loss 1.4475, val loss 1.4750
+step 24500: train loss 1.4514, val loss 1.4546
+step 25000: train loss 1.4508, val loss 1.4309
+checkpoint salvo em checkpoints/texto
+step 25500: train loss 1.4418, val loss 1.4426
+step 26000: train loss 1.4450, val loss 1.4553
+step 26500: train loss 1.4394, val loss 1.4335
+step 27000: train loss 1.4482, val loss 1.4645
+step 27500: train loss 1.4263, val loss 1.4831
+step 28000: train loss 1.4302, val loss 1.4336
+step 28500: train loss 1.4470, val loss 1.4319
+step 29000: train loss 1.4228, val loss 1.4395
+step 29500: train loss 1.4283, val loss 1.4414
+step 30000: train loss 1.4102, val loss 1.4508
+step 30500: train loss 1.4070, val loss 1.4320
+step 31000: train loss 1.4398, val loss 1.4334
+step 31500: train loss 1.4117, val loss 1.4108
+checkpoint salvo em checkpoints/texto
+step 32000: train loss 1.4209, val loss 1.4522
+step 32500: train loss 1.4232, val loss 1.4217
+step 33000: train loss 1.4014, val loss 1.3936
+checkpoint salvo em checkpoints/texto
+step 33500: train loss 1.4113, val loss 1.4096
+step 34000: train loss 1.4060, val loss 1.4304
+step 34500: train loss 1.4122, val loss 1.4284
+step 35000: train loss 1.4048, val loss 1.4234
+step 35500: train loss 1.4060, val loss 1.4152
+step 36000: train loss 1.4084, val loss 1.4365
+step 36500: train loss 1.4195, val loss 1.4406
+step 37000: train loss 1.4081, val loss 1.4032
+step 37500: train loss 1.4243, val loss 1.4309
+step 38000: train loss 1.3955, val loss 1.4363
+step 38500: train loss 1.3898, val loss 1.4415
+step 39000: train loss 1.3778, val loss 1.4108
+step 39500: train loss 1.4074, val loss 1.3996
+step 40000: train loss 1.3807, val loss 1.4254
+
+=== Treinando: poesia ===
+
+Initializing a new model from scratch
+1.622392 M parameters
+step 0: train loss 4.7245, val loss 4.7200
+checkpoint salvo em checkpoints/poesia
+step 500: train loss 2.3852, val loss 2.4566
+checkpoint salvo em checkpoints/poesia
+step 1000: train loss 2.2642, val loss 2.3081
+checkpoint salvo em checkpoints/poesia
+step 1500: train loss 2.1490, val loss 2.2043
+checkpoint salvo em checkpoints/poesia
+step 2000: train loss 2.0653, val loss 2.0954
+checkpoint salvo em checkpoints/poesia
+step 2500: train loss 1.9788, val loss 2.0539
+checkpoint salvo em checkpoints/poesia
+step 3000: train loss 1.9491, val loss 2.0061
+checkpoint salvo em checkpoints/poesia
+step 3500: train loss 1.9088, val loss 1.9928
+checkpoint salvo em checkpoints/poesia
+step 4000: train loss 1.8502, val loss 1.9643
+checkpoint salvo em checkpoints/poesia
+step 4500: train loss 1.8294, val loss 1.9305
+checkpoint salvo em checkpoints/poesia
+step 5000: train loss 1.8125, val loss 1.9102
+checkpoint salvo em checkpoints/poesia
+step 5500: train loss 1.7864, val loss 1.8986
+checkpoint salvo em checkpoints/poesia
+step 6000: train loss 1.7515, val loss 1.8624
+checkpoint salvo em checkpoints/poesia
+step 6500: train loss 1.7250, val loss 1.8340
+checkpoint salvo em checkpoints/poesia
+step 7000: train loss 1.7129, val loss 1.8168
+checkpoint salvo em checkpoints/poesia
+step 7500: train loss 1.6580, val loss 1.8074
+checkpoint salvo em checkpoints/poesia
+step 8000: train loss 1.6849, val loss 1.8056
+checkpoint salvo em checkpoints/poesia
+step 8500: train loss 1.6707, val loss 1.8066
+step 9000: train loss 1.6537, val loss 1.7965
+checkpoint salvo em checkpoints/poesia
+step 9500: train loss 1.6705, val loss 1.7684
+checkpoint salvo em checkpoints/poesia
+step 10000: train loss 1.6287, val loss 1.7797
+step 10500: train loss 1.6106, val loss 1.7605
+checkpoint salvo em checkpoints/poesia
+step 11000: train loss 1.6076, val loss 1.7454
+checkpoint salvo em checkpoints/poesia
+step 11500: train loss 1.5673, val loss 1.8019
+step 12000: train loss 1.6119, val loss 1.7306
+checkpoint salvo em checkpoints/poesia
+step 12500: train loss 1.5682, val loss 1.7505
+step 13000: train loss 1.5698, val loss 1.7509
+step 13500: train loss 1.5859, val loss 1.7567
+step 14000: train loss 1.5537, val loss 1.6952
+checkpoint salvo em checkpoints/poesia
+step 14500: train loss 1.5484, val loss 1.7198
+step 15000: train loss 1.5497, val loss 1.7106
+step 15500: train loss 1.5360, val loss 1.6763
+checkpoint salvo em checkpoints/poesia
+step 16000: train loss 1.5253, val loss 1.7106
+step 16500: train loss 1.5032, val loss 1.7439
+step 17000: train loss 1.4925, val loss 1.7012
+step 17500: train loss 1.5063, val loss 1.7114
+step 18000: train loss 1.5131, val loss 1.6524
+checkpoint salvo em checkpoints/poesia
+step 18500: train loss 1.4876, val loss 1.6762
+step 19000: train loss 1.4997, val loss 1.6909
+step 19500: train loss 1.4798, val loss 1.6920
+step 20000: train loss 1.4824, val loss 1.6538
+step 20500: train loss 1.5101, val loss 1.6646
+step 21000: train loss 1.4900, val loss 1.6768
+step 21500: train loss 1.5154, val loss 1.7034
+step 22000: train loss 1.4225, val loss 1.6548
+step 22500: train loss 1.4778, val loss 1.6353
+checkpoint salvo em checkpoints/poesia
+step 23000: train loss 1.4628, val loss 1.6589
+step 23500: train loss 1.4598, val loss 1.6533
+step 24000: train loss 1.4524, val loss 1.6396
+step 24500: train loss 1.4652, val loss 1.6855
+step 25000: train loss 1.4648, val loss 1.6973
+step 25500: train loss 1.4401, val loss 1.6703
+step 26000: train loss 1.4457, val loss 1.6783
+step 26500: train loss 1.4233, val loss 1.6864
+step 27000: train loss 1.4184, val loss 1.6502
+step 27500: train loss 1.4459, val loss 1.6569
+step 28000: train loss 1.4283, val loss 1.6695
+step 28500: train loss 1.4244, val loss 1.6904
+step 29000: train loss 1.4208, val loss 1.6891
+step 29500: train loss 1.4306, val loss 1.6435
+step 30000: train loss 1.4099, val loss 1.6340
+checkpoint salvo em checkpoints/poesia
+step 30500: train loss 1.3910, val loss 1.6398
+step 31000: train loss 1.4313, val loss 1.6851
+step 31500: train loss 1.3957, val loss 1.6385
+step 32000: train loss 1.4180, val loss 1.6487
+step 32500: train loss 1.3850, val loss 1.6721
+step 33000: train loss 1.4097, val loss 1.6439
+step 33500: train loss 1.3955, val loss 1.6517
+step 34000: train loss 1.4014, val loss 1.6610
+step 34500: train loss 1.3997, val loss 1.6229
+checkpoint salvo em checkpoints/poesia
+step 35000: train loss 1.3971, val loss 1.6672
+step 35500: train loss 1.4127, val loss 1.6610
+step 36000: train loss 1.4207, val loss 1.6308
+step 36500: train loss 1.3725, val loss 1.6625
+step 37000: train loss 1.3958, val loss 1.6501
+step 37500: train loss 1.3650, val loss 1.6278
+step 38000: train loss 1.3743, val loss 1.6291
+step 38500: train loss 1.3856, val loss 1.6503
+step 39000: train loss 1.3539, val loss 1.6255
+step 39500: train loss 1.3815, val loss 1.6212
+checkpoint salvo em checkpoints/poesia
+step 40000: train loss 1.3648, val loss 1.6192
+checkpoint salvo em checkpoints/poesia
+
+=== Treinando: teatro ===
+
+Initializing a new model from scratch
+1.620079 M parameters
+step 0: train loss 4.6903, val loss 4.6871
+checkpoint salvo em checkpoints/teatro
+step 500: train loss 2.3773, val loss 2.3838
+checkpoint salvo em checkpoints/teatro
+step 1000: train loss 2.1187, val loss 2.1844
+checkpoint salvo em checkpoints/teatro
+step 1500: train loss 1.9677, val loss 2.0034
+checkpoint salvo em checkpoints/teatro
+step 2000: train loss 1.9008, val loss 1.9061
+checkpoint salvo em checkpoints/teatro
+step 2500: train loss 1.7973, val loss 1.7845
+checkpoint salvo em checkpoints/teatro
+step 3000: train loss 1.7019, val loss 1.6857
+checkpoint salvo em checkpoints/teatro
+step 3500: train loss 1.6623, val loss 1.6754
+checkpoint salvo em checkpoints/teatro
+step 4000: train loss 1.6340, val loss 1.6045
+checkpoint salvo em checkpoints/teatro
+step 4500: train loss 1.6324, val loss 1.5838
+checkpoint salvo em checkpoints/teatro
+step 5000: train loss 1.5466, val loss 1.5649
+checkpoint salvo em checkpoints/teatro
+step 5500: train loss 1.5534, val loss 1.5317
+checkpoint salvo em checkpoints/teatro
+step 6000: train loss 1.5269, val loss 1.5139
+checkpoint salvo em checkpoints/teatro
+step 6500: train loss 1.4764, val loss 1.5087
+checkpoint salvo em checkpoints/teatro
+step 7000: train loss 1.4673, val loss 1.5148
+step 7500: train loss 1.4460, val loss 1.4861
+checkpoint salvo em checkpoints/teatro
+step 8000: train loss 1.4505, val loss 1.4585
+checkpoint salvo em checkpoints/teatro
+step 8500: train loss 1.4150, val loss 1.4367
+checkpoint salvo em checkpoints/teatro
+step 9000: train loss 1.4207, val loss 1.4352
+checkpoint salvo em checkpoints/teatro
+step 9500: train loss 1.3877, val loss 1.4096
+checkpoint salvo em checkpoints/teatro
+step 10000: train loss 1.3560, val loss 1.4141
+step 10500: train loss 1.3500, val loss 1.4026
+checkpoint salvo em checkpoints/teatro
+step 11000: train loss 1.3502, val loss 1.4052
+step 11500: train loss 1.3563, val loss 1.3989
+checkpoint salvo em checkpoints/teatro
+step 12000: train loss 1.3546, val loss 1.3987
+checkpoint salvo em checkpoints/teatro
+step 12500: train loss 1.3176, val loss 1.4018
+step 13000: train loss 1.3310, val loss 1.3882
+checkpoint salvo em checkpoints/teatro
+step 13500: train loss 1.2835, val loss 1.3679
+checkpoint salvo em checkpoints/teatro
+step 14000: train loss 1.2898, val loss 1.3737
+step 14500: train loss 1.2728, val loss 1.3768
+step 15000: train loss 1.2805, val loss 1.3697
+step 15500: train loss 1.2534, val loss 1.3598
+checkpoint salvo em checkpoints/teatro
+step 16000: train loss 1.2286, val loss 1.3994
+step 16500: train loss 1.2410, val loss 1.3600
+step 17000: train loss 1.2489, val loss 1.3636
+step 17500: train loss 1.2525, val loss 1.3854
+step 18000: train loss 1.2468, val loss 1.3728
+step 18500: train loss 1.2144, val loss 1.3685
+step 19000: train loss 1.2313, val loss 1.3463
+checkpoint salvo em checkpoints/teatro
+step 19500: train loss 1.2245, val loss 1.3475
+step 20000: train loss 1.2091, val loss 1.3459
+checkpoint salvo em checkpoints/teatro
+step 20500: train loss 1.2144, val loss 1.3520
+step 21000: train loss 1.1617, val loss 1.3729
+step 21500: train loss 1.2124, val loss 1.3607
+step 22000: train loss 1.1985, val loss 1.3675
+step 22500: train loss 1.1858, val loss 1.3440
+checkpoint salvo em checkpoints/teatro
+step 23000: train loss 1.1927, val loss 1.3238
+checkpoint salvo em checkpoints/teatro
+step 23500: train loss 1.1922, val loss 1.3410
+step 24000: train loss 1.1917, val loss 1.3141
+checkpoint salvo em checkpoints/teatro
+step 24500: train loss 1.1430, val loss 1.3552
+step 25000: train loss 1.1571, val loss 1.3417
+step 25500: train loss 1.1214, val loss 1.3271
+step 26000: train loss 1.1346, val loss 1.3496
+step 26500: train loss 1.1122, val loss 1.3615
+step 27000: train loss 1.1397, val loss 1.3260
+step 27500: train loss 1.1375, val loss 1.3324
+step 28000: train loss 1.1309, val loss 1.3757
+step 28500: train loss 1.1208, val loss 1.3238
+step 29000: train loss 1.1064, val loss 1.3437
+step 29500: train loss 1.1200, val loss 1.3531
+step 30000: train loss 1.1301, val loss 1.3385
+step 30500: train loss 1.1124, val loss 1.3701
+step 31000: train loss 1.0917, val loss 1.3338
+step 31500: train loss 1.1262, val loss 1.3448
+step 32000: train loss 1.1030, val loss 1.3801
+step 32500: train loss 1.0955, val loss 1.3290
+step 33000: train loss 1.0673, val loss 1.3760
+step 33500: train loss 1.0701, val loss 1.3221
+step 34000: train loss 1.0825, val loss 1.3345
+step 34500: train loss 1.0728, val loss 1.3216
+step 35000: train loss 1.0751, val loss 1.3217
+step 35500: train loss 1.0838, val loss 1.3848
+step 36000: train loss 1.0480, val loss 1.3413
+step 36500: train loss 1.0783, val loss 1.3220
+step 37000: train loss 1.0527, val loss 1.3406
+step 37500: train loss 1.0726, val loss 1.3586
+step 38000: train loss 1.0654, val loss 1.3822
+step 38500: train loss 1.0278, val loss 1.3571
+step 39000: train loss 1.0323, val loss 1.3724
+step 39500: train loss 1.0507, val loss 1.3721
+step 40000: train loss 1.0383, val loss 1.3926

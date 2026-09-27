@@ -42,7 +42,7 @@ n_head = 8
 n_layer = 8
 # probabilidade (20%) de "desligar" aleatoriamente neurônios durante o treino
 # como técnica de regularização para evitar overfitting
-dropout = 0.0
+dropout = 0.2
 
 torch.manual_seed(1337)
 
@@ -304,8 +304,8 @@ if __name__ == "__main__":
     context = torch.zeros((1, 1), dtype=torch.long, device=device)
 
     decode = lambda l: [itos[i] for i in l]
-    out = ''.join(decode(m.generate(context, max_new_tokens=2000)[0].tolist()))
+    out = ''.join(decode(m.generate(context, max_new_tokens=1000)[0].tolist()))
     os.makedirs(out_dir, exist_ok=True)
-    with open(f'{out_dir}/ouput.txt', 'w') as f:
+    with open(f'{out_dir}/ouput_dropout.txt', 'w') as f:
         f.write(out)
     
